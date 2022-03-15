@@ -20,24 +20,16 @@
             Notes App
         </h1>
 
-        <div class="form-group">
+        <form class="form-group">
             <input type="text" id="txtNotes" placeholder="Enter your notes">
-            <button><i class="fa-solid fa-plus fa-xl"></i></button>
-        </div>
+            <button id="btnAdd"><i class="fa-solid fa-plus fa-xl"></i></button>
+        </form>
 
         <div class="notes-list">
-            <div class="notes-item">
-                <div><button><i class="fa-solid fa-trash-can"></i></button></div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fugit, aspernatur molestiae consectetur nostrum dicta perferendis! Harum dignissimos eaque, dolores dolorum aliquam cumque quis praesentium quae voluptate suscipit tempore excepturi.</p>
-            </div>
-            <div class="notes-item">
-                <div><button><i class="fa-solid fa-trash-can"></i></button></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, laudantium!</p>
-            </div>
-            <div class="notes-item">
-                <div><button><i class="fa-solid fa-trash-can"></i></button></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, laudantium!</p>
-            </div>
+        </div>
+
+        <div class="notes-empty" hidden>
+            <i class="fa-solid fa-face-sad-cry fa-2x"></i> Apologies! No notes yet.
         </div>
     </main>
 

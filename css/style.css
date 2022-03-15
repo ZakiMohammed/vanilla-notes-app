@@ -15,6 +15,10 @@
     color: #4b6584;
 }
 
+::selection {
+    background-color: #f7b731;
+}
+
 body {
     margin: 0;
 }
@@ -95,4 +99,13 @@ h1 i {
 }
 .notes-list .notes-item button:hover i {
     color: #fff;
+}
+
+.notes-empty {
+    text-align: center;
+    color: #999;
+}
+.notes-empty i {
+    vertical-align: middle;
+    color: #999;
 }
